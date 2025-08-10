@@ -64,7 +64,7 @@ jobs:
           # устанавливаем тег latest, чтобы потом
           # на сервере и в docker-compose.yml не указывать версию
           tags: ваш-логин-на-docker-hub/taski_backend:latest 
-    steps:
+    
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip setuptools
